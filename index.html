@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      My Art
+    </title>
+    <style>
+
+	/* This code was originally taken from (https://stackoverflow.com/questions/9990928/how-to-create-a-page-thats-split-diagonally-and-the-two-halves-are-clickable-li)
+	and fcalderan's response. */
+
+	a { 
+    	position: absolute;
+    	top: 0;
+   	 	left: 0;
+  	  	height: 100vh;
+		width: 100%;
+	    display: block;
+	    text-decoration: none;
+	}
+	
+	a:first-child {
+	    -webkit-clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+	    clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+	    background: #d6d6d6;
+	}
+
+	a:last-child {
+	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh);
+	    clip-path: polygon(0 0, 100% 0, 100% 100vh);
+	    background: #212121;
+	}
+	
+	.lText {
+		margin-top: 50vh;
+		margin-left: 20%;
+		font-size: 30px;
+    	font-size: 10vw;
+    	font-family: sans-serif;
+    	color: black;
+	}
+	
+	.rText {
+		margin-top: 30vh;
+		margin-left: 60%;
+		font-size: 30px;
+    	font-size: 10vw;
+    	font-family: sans-serif;
+    	color: white;
+	}
+	
+    </style>
+  </head>
+  <body>
+  	<a href="1617/1617.html"><p class="lText">16-17</p></a>
+   	<a href="1516/1516.html"><p class="rText">15-16</p></a>
+  </body>
+</html>
+
 
