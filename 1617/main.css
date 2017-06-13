@@ -1,0 +1,97 @@
+html, body {
+  background: rgb(30, 30, 30);
+  margin:0;
+  font-family:Georgia, "Times New Roman", Times, serif;
+}
+.wrapper {
+  margin: -8px;
+  margin:0;
+}
+header {
+  background: white;
+  margin-top: 70px;
+  height: 300px;
+  width: 100%;
+}
+
+.main {
+  background: white;
+  margin: auto;
+  margin-top: -20px;
+}
+
+h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.mainp2 {
+  text-align: left;
+  margin: auto;
+  width: 55%;
+  color: white;
+  font-size: 20pt;
+  position: fixed;
+    top: 20%;
+    left: 25%;
+}
+
+.smallspace {
+  font-size: 10px;
+}
+
+a {
+  color: black;
+  font-family: sans-serif;
+  /*display: inline;*/
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  border: solid black 5px;
+}
+
+.examplePicS {
+  width: 25%;
+  border: 5px black solid;
+}
+
+.examplePic {
+  width: 50%;
+  border: 5px black solid;
+  margin-left: 25%;
+}
+
+.exampleTitle {
+  font-size: 18px;
+  font-family:"arial";
+  font-weight: bold;
+  color: gray;
+  margin-left: 25%;
+  max-width: 50%;
+}
+
+.exampleText {
+  font-size: 18px;
+  font-family:"arial";
+  font-weight: lighter;
+  color: gray;
+  margin-left: 25%;
+  max-width: 50%;
+  text-align: justify;
+}
+
+hr {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.aboutMe {
+  font-size: 18px;
+  font-family:"arial";
+  font-weight: lighter;
+  color: gray;
+  text-align: center;
+}
